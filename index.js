@@ -11,7 +11,8 @@ app.use(json());
 app.use("/", routes);
 
 app.get('/', (request, response) => {
-   response.send("kayode kayode kayode")
+   response.send("kayode kayode owolabi jesuseun kayode")
+  
 })
 
 app.post("/", (response, response) => {
