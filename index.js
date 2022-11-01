@@ -14,6 +14,10 @@ app.get('/', (request, response) => {
    response.send("kayode kayode kayode")
 })
 
+app.post("/", (response, response) => {
+     response.send("Hello kayode")
+})
+
 const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
