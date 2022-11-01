@@ -15,9 +15,6 @@ app.get('/', (request, response) => {
   
 })
 
-app.post("/", (response, response) => {
-     response.send("Hello kayode")
-})
 
 const port = process.env.PORT || 3000;
 
