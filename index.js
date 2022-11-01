@@ -10,6 +10,10 @@ app.use(json());
 
 app.use("/", routes);
 
+app.get('/', (request, response) => {
+   response.send("kayode kayode kayode")
+})
+
 const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
